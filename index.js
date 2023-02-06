@@ -9,7 +9,6 @@ function mindGame(number) {
   }
 }
 const resultMindGame = mindGame(50);
-console.log(resultMindGame);
 
 // mindGame is a function which refres that it will take a number as a input and then multiply that number with 3 then add 10 with them and divided  2 with that result and then substract 5 from the result and return the result.
 
@@ -31,7 +30,6 @@ function evenOdd(name) {
 const myName = 'batch7';
 
 const evenOrOdd = evenOdd(myName);
-console.log(evenOrOdd);
 
 // evenOdd is a function which take a string as an input and return whether the string is even or odd.
 
@@ -52,7 +50,6 @@ function isLGSeven(number) {
   }
 }
 const resultIsLGSeven = isLGSeven(6);
-console.log(resultIsLGSeven);
 
 // ------------------------------------------------
 
@@ -74,7 +71,6 @@ function findingBadData(array) {
 const myArray = [2, -5, -7, -13];
 
 const resultFindingBadData = findingBadData(myArray);
-console.log(resultFindingBadData);
 
 // findingBadData is a function which take an array as an input and give return how many negative values are remained in that array.
 
@@ -103,6 +99,6 @@ function gemsToDiamond(num1, num2, num3) {
   }
 }
 const resultGemsToDiamond = gemsToDiamond(20, 200, 50);
-console.log(resultGemsToDiamond);
 
-// gemsToDiamond is a function which takes three input and multiply with them 21,32,43 then total of that and get out if the result is equal or more then 2000 then return substract otherwise return the totla;
+// gemsToDiamond is a function which takes three input and multiply with them 21,32,43
+// then total of that and get out if the result is equal or more then 2000 then return substract otherwise return the totla;
