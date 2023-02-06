@@ -40,14 +40,18 @@ console.log(evenOrOdd);
 // Third Problem:
 
 function isLGSeven(number) {
-  let substract = number - 7;
-  if (substract < 7) {
-    return substract;
+  if (typeof number === 'number') {
+    let substract = number - 7;
+    if (substract < 7) {
+      return substract;
+    } else {
+      return number * 2;
+    }
   } else {
-    return number * 2;
+    return 'please enter a number as an input';
   }
 }
-const resultIsLGSeven = isLGSeven(-15);
+const resultIsLGSeven = isLGSeven(6);
 console.log(resultIsLGSeven);
 
 // ------------------------------------------------
