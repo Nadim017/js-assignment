@@ -8,8 +8,8 @@ function mindGame(number) {
     return 'Please give number as an input';
   }
 }
-const result = mindGame(5);
-console.log(result);
+const resultMindGame = mindGame(50);
+console.log(resultMindGame);
 
 // mindGame is a function which refres that it will take a number as a input and then multiply that number with 3 then add 10 with them and divided  2 with that result and then substract 5 from the result and return the result.
 
@@ -28,7 +28,7 @@ function evenOdd(name) {
     return 'please give string as an input';
   }
 }
-const myName = 'Nadim';
+const myName = 'batch7';
 
 const evenOrOdd = evenOdd(myName);
 console.log(evenOrOdd);
@@ -38,20 +38,17 @@ console.log(evenOrOdd);
 // -------------------------------------------------
 
 // Third Problem:
-function isLGSeven(number) {
-  //   let absSubstract = Math.abs(number - 7);
-  //   if (absSubstract < 7) {
-  //     return absSubstract;
-  //   } else {
-  //     return number * 2;
-  //   }
 
+function isLGSeven(number) {
   let substract = number - 7;
   if (substract < 7) {
     return substract;
+  } else {
+    return number * 2;
   }
 }
-console.log(isLGSeven(6));
+const resultIsLGSeven = isLGSeven(-15);
+console.log(resultIsLGSeven);
 
 // ------------------------------------------------
 
@@ -70,9 +67,10 @@ function findingBadData(array) {
     return 'Please give an array of numbers as input';
   }
 }
-const myArray = [1, 2, -3, 4, -5, -6, 7, -8, 9, 10];
+const myArray = [2, -5, -7, -13];
 
-console.log(findingBadData(myArray));
+const resultFindingBadData = findingBadData(myArray);
+console.log(resultFindingBadData);
 
 // findingBadData is a function which take an array as an input and give return how many negative values are remained in that array.
 
@@ -100,4 +98,7 @@ function gemsToDiamond(num1, num2, num3) {
     return 'please enter a number as an input';
   }
 }
-console.log(gemsToDiamond(20, 200, 50));
+const resultGemsToDiamond = gemsToDiamond(20, 200, 50);
+console.log(resultGemsToDiamond);
+
+// gemsToDiamond is a function which takes three input and multiply with them 21,32,43 then total of that and get out if the result is equal or more then 2000 then return substract otherwise return the totla;
